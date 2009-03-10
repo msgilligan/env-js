@@ -1763,7 +1763,7 @@ __extend__(DOMAttr.prototype, {
         return DOMNode.ATTRIBUTE_NODE;
     },
     get xml(){
-        return this.nodeName + "='" + this.nodeValue + "' ";
+        return this.nodeName + "=\"" + this.nodeValue + "\" ";
     },
     toString : function(){
         return "Attr #" + this._id + " " + this.name;
