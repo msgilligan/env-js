@@ -160,6 +160,10 @@ var window = this;
 			return new DOMNodeList( this._dom.getElementsByTagName(
 				name.toLowerCase()) );
 		},
+		getElementsByTagNameNS: function(ns, name){
+			return new DOMNodeList( this._dom.getElementsByTagName(
+				name.toLowerCase()) );
+		},
 		getElementById: function(id){
 			var elems = this._dom.getElementsByTagName("*");
 			

@@ -21,6 +21,8 @@ Testing:
 * ./test1-patches.sh - run the dom-noop.js transformation with a patched version of
                          a recent env.rhino.js
 * ./test2.sh         - run the dom-addclass.js transformation using ../dist/env.rhino.js (currently fails)
-* ./test1-working.sh - run the dom-addclass.js transformation with a patched version of 
+* ./test2-working.sh - run the dom-addclass.js transformation with a patched version of 
                          the original env.js (currently working)
+* ./test2-patches.sh - run the dom-addclass.js transformation with a patched version of
+                         a recent env.rhino.js
 
