@@ -1,0 +1,20 @@
+jsdomtransform : Using env.js for XML DOM modification/transformation
+Work-in-progress by Sean Gilligan
+
+Building:
+* No build is necessary assuming jsdomtransform is located under the root of env-js project
+
+Transformations:
+dom-noop.js          - No changes to the XML 'Infoset'
+dom-addclass.js      - Add class="test" to all <path> elements
+
+Testing:
+* ./test1.sh         - run the dom-noop.js transformation using ../dist/env.rhino.js (currently fails)
+* ./test1-working.sh - run the dom-noop.js transformation with a patched version of 
+                         the original env.js (currently working)
+* ./test1-patches.sh - run the dom-noop.js transformation with a patched version of
+                         a recent env.rhino.js
+* ./test2.sh         - run the dom-addclass.js transformation using ../dist/env.rhino.js (currently fails)
+* ./test1-working.sh - run the dom-addclass.js transformation with a patched version of 
+                         the original env.js (currently working)
+

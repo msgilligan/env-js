@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" baseprofile="tiny" width="600" height="400" viewbox="0 0 600 400">
+	<defs>
+<style type="text/css" id="wallstyle">
+    path, line, polygon {
+      visibility: visible;
+      fill: none;
+      stroke: black;
+      stroke-width: 1;
+    }
+    </style>
+	</defs>
+		<path id="path-bottom"    d="M 560,300 L 0,300 L 0,270 L 186,268 L 243,258 L 296,277 L 508,277 L 513,260 L 541,227 L 560,234 L 560,250 z" />
+		<path id="brick-path"     d="M 595,215 L 520,90 L 0,90 L 0,120 L 190,117 L 246,108 L 293,125 L 489,125 L 558,238 z" />
+		<path id="plank-top-path" d="M 414 170 L 382 201 L 416 235 L 449 203 z " />
+		<path id="left-slope"     d="M 210,113 L 210,264 L 244,260 L 245,110 z" />
+<!--right-slope has a redundant line-to (250,110) that should be removed in the conversion-->
+		<path id="right-slope"    d="M 250,110 L 250,260 L 290,274 L 290,123 L 250,110 z" />
+</svg>
