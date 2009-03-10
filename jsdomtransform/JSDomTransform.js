@@ -36,7 +36,7 @@ window.onload = function() {
       {
          outString = inDoc.documentElement.outerHTML;
       }
-      print("Loaded doc is: " + outString);
+//      print("Loaded doc is: " + outString);
 
       XformMain(inDoc);
       
@@ -47,7 +47,7 @@ window.onload = function() {
       {
          outString = inDoc.documentElement.outerHTML;
       }
-      print("Output doc is: " + outString);
+//      print("Output doc is: " + outString);
 
       var out = new XMLHttpRequest();
       out.open("PUT", outFile, false);
