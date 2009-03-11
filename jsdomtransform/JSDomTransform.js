@@ -13,6 +13,7 @@ var scriptFile = arguments[0];
 var inFile = arguments[1];
 var outFile = arguments[2];
 var envJSFile = '../dist/env.rhino.js';
+var htmlFile = 'empty.html';
 
 if (arguments.length == 4)
 {
@@ -58,4 +59,4 @@ window.onload = function() {
   
 };
 
-window.location = 'empty.html';   // Could be any HTML file
+window.location = htmlFile;   // Could be any HTML file
